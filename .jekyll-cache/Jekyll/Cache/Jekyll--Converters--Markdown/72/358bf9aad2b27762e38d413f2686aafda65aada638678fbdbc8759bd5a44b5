@@ -1,0 +1,31 @@
+I"<!--Text can be **bold**, _italic_, or ~~strikethrough~~.-->
+
+<!-- [**Home**](./index.html)|[**Categories**](./pages/categories.html)|[**Archives**](./pages/archives.html) -->
+
+<!--
+<ul id="posts">
+
+	
+
+</ul>  -->
+
+<h2>Latest Posts</h2>
+<ul>
+  
+    <li style="list-style-type:none;">
+      <h3><a href="/2021/03/13/first-blog-post.html">First Blog Post</a></h3>
+      <p><small> Posted on <time datetime="2021-03-13T00:00:00+01:00" class="by-line">13 Mar 2021</time> by <a href="/pages/aboutme.html">Shahnewaz Shuva</a> </small></p>
+      <p>The Lewis and Clark Exposition gold dollar is a commemorative coin struck in 1904 and 1905 as part of the United States Government’s participation in the.
+</p>
+
+    </li>
+  
+    <li style="list-style-type:none;">
+      <h3><a href="/2021/03/10/second-post.html">Second Post</a></h3>
+      <p><small> Posted on <time datetime="2021-03-10T00:00:00+01:00" class="by-line">10 Mar 2021</time> by <a href="/pages/aboutme.html">Shahnewaz Shuva</a> </small></p>
+      <p>Chocolate is a preparation of roasted and ground cacao seeds that is made in the form of a liquid, paste, or in a block, which may also be used as a flavoring ingredient in other foods. The earliest signs of use are associated with Olmec sites (within what would become...</p>
+
+    </li>
+  
+</ul>
+:ET

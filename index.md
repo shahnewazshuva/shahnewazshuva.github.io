@@ -26,7 +26,7 @@ layout: default
   {% for post in site.posts %}
     <li style="list-style-type:none;" >
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p><small> Posted on <time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time> by {{post.author}} </small></p>
+      <p><small> Posted on <time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time> by <a href="/pages/aboutme.html">{{post.author}}</a> </small></p>
       <p>{{ post.content | strip_html | truncatewords:50 }}</p>
 
     </li>
