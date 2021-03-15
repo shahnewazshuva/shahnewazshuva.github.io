@@ -6,7 +6,7 @@ layout: default
 
 * [linux command](misc/linuxcheatsheet.html)
 * [Lists of Books](misc/books_math.html) (Mathematics)
-* [html note](misc/html_note.html)
+* [html note](misc/html_note.md)
 
 
 
