@@ -4,10 +4,11 @@ layout: default
 
 ## Miscellaneous
 
-* [linux command](misc/linuxcheatsheet.html)
+* [Linux Command](misc/linuxcheatsheet.html)
 * [Lists of Books](misc/books_math.html) (Mathematics)
-* [html note](misc/html_note.html)
-
+* [HTML Note](misc/html_note.html)
+* [Latex Note](misc/latex_note.html)
+* [git Note](misc/git_not.html)
 
 
 [Back to Home](./../)
