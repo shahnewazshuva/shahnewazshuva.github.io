@@ -8,7 +8,7 @@ layout: default
 * [Lists of Books](misc/books_math.html) (Mathematics)
 * [HTML Note](misc/html_note.html)
 * [Latex Note](misc/latex_note.html)
-* [git Note](misc/git_not.html)
+* [git Note](misc/git_note.html)
 
 
 [Back to Home](./../)
