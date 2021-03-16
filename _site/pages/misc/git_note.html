@@ -89,20 +89,13 @@ git pull   (Updates your current local working branch with all new commits from 
 </details>
 <details>
   <summary>Make changes</summary>
-  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git log
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git log     (Lists version history for the current branch)
+git log --follow [file]   (Lists version history for a file, including renames)
+git diff [first-branch]...[second-branch]  (Shows content differences between two branches)
+git show [commit]   (Outputs metadata and content changes of the specified commit)
+git add [file]   (Snapshots the file in preparation for versioning)
+git commit -m "[descriptive message]"  (Records file snapshots permanently in version history)
 </code></pre></div>  </div>
-  <p>Lists version history for the current branch</p>
-  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git log --follow [file]
-</code></pre></div>  </div>
-  <p>Lists version history for a file, including renames</p>
-  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git diff [first-branch]...[second-branch]
-</code></pre></div>  </div>
-  <p>Shows content differences between two branches</p>
-  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git show [commit]
-</code></pre></div>  </div>
-  <p>git add [file]
-git commit -m “[descriptive message]”
-```</p>
 </details>
 
         </section>

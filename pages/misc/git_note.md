@@ -41,21 +41,11 @@ git pull   (Updates your current local working branch with all new commits from 
 </details>
 <details><summary markdown="span">Make changes</summary>
 ```
-git log
-```
-Lists version history for the current branch
-```
-git log --follow [file]
-```
-Lists version history for a file, including renames
-```
-git diff [first-branch]...[second-branch]
-```
-Shows content differences between two branches
-```
-git show [commit]
-```
-git add [file]
-git commit -m "[descriptive message]"
+git log     (Lists version history for the current branch)
+git log --follow [file]   (Lists version history for a file, including renames)
+git diff [first-branch]...[second-branch]  (Shows content differences between two branches)
+git show [commit]   (Outputs metadata and content changes of the specified commit)
+git add [file]   (Snapshots the file in preparation for versioning)
+git commit -m "[descriptive message]"  (Records file snapshots permanently in version history)
 ```
 </details>
