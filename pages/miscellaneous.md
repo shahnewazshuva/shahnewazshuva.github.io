@@ -9,6 +9,7 @@ layout: default
 * [HTML Note](misc/html_note.html)
 * [Latex Note](misc/latex_note.html)
 * [git Note](misc/git_note.html)
+* [Deutsch Note](misc/deutsch_note.html)
 
 
 [Back to Home](./../)
