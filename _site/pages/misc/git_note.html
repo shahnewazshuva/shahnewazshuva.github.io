@@ -50,7 +50,12 @@
                   <a href="/pages/miscellaneous.html"> <b>Misc.</b> &nbsp;&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <a href="/pages/aboutme.html"> <b>About Me</b> &nbsp;</a>
                   </p>
-          <h3 id="git-command">git command</h3>
+          <h3 id="git-command-expand">git command (expand)</h3>
+<h4 id="references">References:</h4>
+<ul>
+  <li><a href="https://git-scm.com/book/en/v2">Book</a></li>
+</ul>
+
 <details>
   <summary>Create repositories</summary>
   <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git init
@@ -73,14 +78,17 @@ step:2 include the files you want not to git
 </details>
 <details>
   <summary>Git Branches</summary>
-  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch [branch-name]
-git checkout [branch-name]
-git merge [branch]
-git branch -d [branch-name]
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch [branch-name]      (Creates a new branch)
+git checkout [branch-name]    (Switches to the specified branch
+                               and updates the working directory)
+git merge [branch]            (Combines the specified branch’s history into the
+                               current branch. This is usually done in pull
+                               requests, but is an important Git operation.
+git branch -d [branch-name]   (Deletes the specified branch)
 </code></pre></div>  </div>
 </details>
 <details>
-  <summary>Synchronize changes</summary>
+  <summary>Synchronize changes (Synchronize local repo with the remote repo)</summary>
   <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git fetch  (Downloads all history from the remote tracking branches)
 git merge  (Combines remote tracking branch into current local branch)
 git push   (Uploads all local branch commits to GitHub)
@@ -88,13 +96,22 @@ git pull   (Updates your current local working branch with all new commits from 
 </code></pre></div>  </div>
 </details>
 <details>
-  <summary>Make changes</summary>
-  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git log     (Lists version history for the current branch)
-git log --follow [file]   (Lists version history for a file, including renames)
-git diff [first-branch]...[second-branch]  (Shows content differences between two branches)
-git show [commit]   (Outputs metadata and content changes of the specified commit)
-git add [file]   (Snapshots the file in preparation for versioning)
+  <summary>Make changes (Browse and inspect the evolution of project files)</summary>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git log                           (Lists version history for the current branch)
+git log --follow [file]           (Lists version history for a file, including
+                                   renames)
+git diff [first-branch]...[second-branch]  (Shows content differences between
+                                            two branches)
+git show [commit]                 (Outputs metadata and content changes of the
+                                   specified commit)
+git add [file]                    (Snapshots the file in preparation for versioning)
 git commit -m "[descriptive message]"  (Records file snapshots permanently in version history)
+</code></pre></div>  </div>
+</details>
+<details>
+  <summary>Redo commits (Erase mistakes and craft replacement history)</summary>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git reset [commit]   (Undoes all commits after [commit], preserving changes locally)
+git reset --hard [commit]   (Discards all history and changes back to the specified commit)
 </code></pre></div>  </div>
 </details>
 
