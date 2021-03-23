@@ -3,14 +3,12 @@ layout: post
 author: Shahnewaz Shuva
 ---
 
-
-$$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
-
 The following questions will be addressed in this article:
 - **What is Time series?**
 - **Why is it important?**
 
-\\[ x = {-b \pm \sqrt{b^2-4ac} \over 2a} \\]
+$$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
 
-\begin{equation}
-f'(x) = \[\frac{\delta f}{\delta x_1}, \frac{\delta f}{\delta x_2}, \cdots, \frac{\delta f}{\delta x_n} \]\end{equation}
+\[ x = {-b \pm \sqrt{b^2-4ac} \over 2a} \]
+
+$$ f'(x) = \frac{\delta f}{\delta x_1}, \frac{\delta f}{\delta x_2}, \cdots, \frac{\delta f}{\delta x_n} $$
