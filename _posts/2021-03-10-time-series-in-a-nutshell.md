@@ -1,7 +1,6 @@
 ---
 layout: post
 author: Shahnewaz Shuva
-mathjax: true
 ---
 
 
